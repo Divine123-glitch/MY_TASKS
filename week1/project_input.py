@@ -1,0 +1,6 @@
+print("Welcome to THE BEST TASTE KITCHEN")
+customer_name = input("Enter your name: ")
+print("Goodday", customer_name)
+Order = input("What would you like to take: ")
+print(f"{Order} will cost you $20")
+print(f"Thanks for your patronage {customer_name}.")
