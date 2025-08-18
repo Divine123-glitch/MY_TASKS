@@ -2,7 +2,7 @@
 
 
 # Store days of the week  in a tuple
-days = ("Monday", "Tuseday" "Wednesday","Thursday", "Friday")
+days = ("Monday", "Tuseday", "Wednesday","Thursday", "Friday")
 
 # Step 2: Ask user for activities
 activities = []
