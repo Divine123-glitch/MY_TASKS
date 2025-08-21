@@ -6,6 +6,7 @@ prices = [1200, 300, 7000, 10000]
 
 # Pair item with prices
 cart_items = {item: price for item, price in zip(items, prices)}
+print(cart_items)
 
 # Print Output
 print("---------------Your Shopping cart---------------")

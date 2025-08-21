@@ -19,7 +19,7 @@ elif options == "2. Buy Data":
     data_amount = st.text_input("Enter the amount of data you want to buy (in MB/GB):", max_chars=5)
     data_network = st.text_input("Enter your network provider (e.g., MTN, GLO, Airtel, 9Mobile):")
     if st.button("Buy Data"):
-        st.success(f"You have successfully purchased {data_amount} MB of data for {data_number} on {data_network}")
+        st.success(f"You have successfully purchased {data_amount} of data for {data_number} on {data_network}")
         st.info("Data purchase successful!")
 elif options == "3. Transfer Money":
     st.write("Transfer Money...")
@@ -42,7 +42,7 @@ elif options == "4. Buy Airtime":
         st.info("Airtime purchase successful!")
         balance = int(balance)
         airtime_amount= int(airtime_amount)
-        st.warning({balance - airtime_amount})
+        st.warning(balance - airtime_amount)
 elif options == "5. Exit":
     st.write("Exiting the app...")
     st.success("Thank you for using the BANK APP!")
