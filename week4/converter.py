@@ -80,5 +80,5 @@ while True:
     print("\n" + "=" * 40)
     print("Thank you for using the Converter. Goodbye!") 
     break
- if __name__ == "__main__":
-    converter()
+
+converter()
