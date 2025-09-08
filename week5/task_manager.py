@@ -48,7 +48,7 @@ def view_tasks():
         print("No tasks available!")
         return
     print("\nAll Tasks: ")
-    for task_id, task_info in tasks.items(): 
+    for task_id, task_info in tasks.items():  
         print(f"ID: {task_id}, Name: {task_info[0]}, Priority: {task_info[1]}, Category: {task_info[2]}")
 
 def update_task():
